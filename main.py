@@ -48,3 +48,6 @@ def main():
                         epochs=550,callbacks=callbacks_list,
                         use_multiprocessing=False,workers=0,initial_epoch=0)
     save_model(model,'IOU_Model.h5')
+
+if __name__ == '__main__':
+    main()
